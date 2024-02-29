@@ -1,10 +1,12 @@
 '''
 Created on Dec 14, 2011
+Updated on Feb 29, 2024
 
 @author: pablocelayes
+@reviewed: ZhengLinLei
 '''
 
-import ContinuedFractions, Arithmetic
+from lib import ContinuedFractions, Arithmetic
 
 def hack_RSA(e,n):
     '''

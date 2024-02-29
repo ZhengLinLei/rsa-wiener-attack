@@ -1,5 +1,5 @@
 import pytest
-from RSAwienerHacker import hack_RSA
+from tool.RSAwienerHacker import hack_RSA
 from tests.fixtures.rsa_data import TEST_RSA_HACK
 
 

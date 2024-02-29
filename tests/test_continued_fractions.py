@@ -1,5 +1,5 @@
 import pytest
-from ContinuedFractions import rational_to_contfrac
+from lib.ContinuedFractions import rational_to_contfrac
 from tests.fixtures.continued_fractions import TEST_RATIONAL_FRAC
 
 

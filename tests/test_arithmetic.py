@@ -1,5 +1,5 @@
 import pytest
-from Arithmetic import is_perfect_square
+from lib.Arithmetic import is_perfect_square
 from tests.fixtures.arithmetic import TEST_NUM_SQRT
 
 

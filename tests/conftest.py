@@ -1,4 +1,4 @@
-import RSAvulnerableKeyGenerator
+import tool.RSAvulnerableKeyGenerator as RSAvulnerableKeyGenerator
 
 
 def pytest_generate_tests(metafunc):

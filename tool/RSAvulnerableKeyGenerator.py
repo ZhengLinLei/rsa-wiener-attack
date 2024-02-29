@@ -1,7 +1,10 @@
 '''
 Created on Dec 14, 2011
+Updated on Feb 29, 2024
 
 @author: pablocelayes
+@reviewed: ZhengLinLei
+
 '''
 
 #!/usr/bin/python
@@ -35,7 +38,8 @@ RSA-keys are Wiener-vulnerable if d < (n^(1/4))/sqrt(6)
 
 """
 
-import random, MillerRabin, Arithmetic
+import random
+from lib import MillerRabin, Arithmetic
 
 def getPrimePair(bits=512):
     '''
@@ -78,17 +82,3 @@ def generateKeys(nbits=1024):
                     
     e = Arithmetic.modInverse(d,phi)
     return e,n,d
-
-if __name__ == "__main__":
-    print("hey")
-    for i in range(5):
-        e,n,d = generateKeys()
-        print ("Clave Publica:")
-        print("e =")
-        print(e)
-        print("n =")
-        print(n)
-        print ("Clave Privada:")
-        print("d =")
-        print(d)
-        print("-----------------------")
